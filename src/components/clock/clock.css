@@ -1,0 +1,87 @@
+.clock {
+    position: relative;
+    box-sizing: border-box;
+    width: 200px;
+    height: 230px;
+    /* border: 1px solid white; */
+    margin: 10px;
+}
+
+.clock-face {
+    position: absolute;
+    box-sizing: border-box;
+    width: 200px; height: 200px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.clock-del-button {
+    position: absolute;
+    box-sizing: border-box;
+    width: 28px;
+    height: 28px;
+    border: 1px solid white;
+    border-radius: 50%;
+    top: 10px;
+    left: 166px;
+    font-size: 1rem;
+    color: gray;
+    user-select: none;
+}
+
+.city-name {
+    position: relative;
+    font-weight: 600;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.clock-del-button:hover {
+    color: white;
+}
+
+.clock-del-button:active {
+    color: red;
+}
+
+.hour-hand {
+    box-sizing: border-box;
+    position: absolute;
+    width: 6px;
+    height: 60px;
+    background-color: red;
+    left: 97px;
+    bottom:100px;
+    transform: rotate(0deg);
+    transform-origin: center bottom;
+    border-radius: 4px;
+}
+
+.minute-hand {
+    box-sizing: border-box;
+    position: absolute;
+    width: 4px;
+    height: 80px;
+    background-color: yellow;
+    left: 98px;
+    bottom:100px;
+    transform: rotate(90deg);
+    transform-origin: center bottom;
+    border-radius: 2px;
+}
+
+.second-hand {
+    box-sizing: border-box;
+    position: absolute;
+    width: 2px;
+    height: 90px;
+    background-color: green;
+    left: 99px;
+    bottom:100px;
+    transform: rotate(180deg);
+    transform-origin: center bottom;
+    border-radius: 1px;
+}
+
+
+

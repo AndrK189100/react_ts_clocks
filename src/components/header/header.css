@@ -1,0 +1,12 @@
+.header {
+    width: 100%;
+    height: 30px;
+    /* border: 1px solid white; */
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.input {
+    margin-right: 20px;
+}
+
